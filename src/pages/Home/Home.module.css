@@ -1,0 +1,13 @@
+.ContentSection {
+  width: 50%;
+  margin: 2rem 2rem 2rem 0;
+}
+.VideoSection {
+  width: 50%;
+  margin: 2rem 2rem 2rem 0;
+}
+.MainVideo {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 3/2;
+}
