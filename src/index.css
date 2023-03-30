@@ -11,4 +11,8 @@
   body {
     background-color: #f8f8f8;
   }
+  p {
+    font-size: 16px;
+    font-weight: 500;
+  }
 }
