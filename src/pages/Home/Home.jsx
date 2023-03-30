@@ -31,10 +31,9 @@ const Home = () => {
         </div>
         <div className={classes.VideoSection}>
           <iframe
-            className={classes.MainVideo}
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/YTjAZs3D0qo"
+            src="https://www.youtube.com/embed/lK7QA5S-kKk"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -42,64 +41,63 @@ const Home = () => {
           ></iframe>
         </div>
       </SectionV1>
-      <SectionV1>
-        <div>
-          <div>
-            <LocationIcon />
-            <p>4</p>
+      <SectionV1 className={"mt-7"}>
+        <div className="flex justify-between gap-x-5">
+          <div className="flex flex-col bg-white shadow-md rounded-md p-5 flex-1">
+            <div className="flex items-center">
+              <LocationIcon />
+              <p className="text-6xl ml-3 font-semibold">4</p>
+            </div>
+            <div>
+              <h2 className="text-3xl font-semibold my-3 ">Region</h2>
+              <p>
+                HIMME accommodates all of BINUS Business School students
+                aspirations which spread across 4 regions
+              </p>
+            </div>
           </div>
-          <div>
-            <h2>Region</h2>
-            <p>
-              HIMME accommodates all of BINUS Business School students
-              aspirations which spread across 4 regions
-            </p>
-            <a href="">See Details </a>
-          </div>
-        </div>
 
-        <div>
-          <div>
-            <PartnerIcon />
-            <p>4</p>
+          <div className="flex flex-col bg-white shadow-md rounded-md p-5 flex-1">
+            <div className="flex items-center">
+              <PartnerIcon />
+              <p className="text-6xl ml-3 font-semibold">50+</p>
+            </div>
+            <div>
+              <h2 className="text-3xl font-semibold my-3 ">Region</h2>
+              <p>
+                We successfully collaborate with more than 50 partners national
+                and international companies on our various events and work
+                programs.
+              </p>
+            </div>
           </div>
-          <div>
-            <h2>Region</h2>
-            <p>
-              HIMME accommodates all of BINUS Business School students
-              aspirations which spread across 4 regions
-            </p>
-            <a href="">See Details </a>
-          </div>
-        </div>
 
-        <div>
-          <div>
-            <MemberIcon />
-            <p>4</p>
+          <div className="flex flex-col bg-white shadow-md rounded-md p-5 flex-1">
+            <div className="flex items-center">
+              <MemberIcon />
+              <p className="text-6xl ml-3 font-semibold">100+</p>
+            </div>
+            <div>
+              <h2 className="text-3xl font-semibold my-3 ">Members</h2>
+              <p>
+                Each year, HIMME has more than 100 activists for one batch with
+                more than 20 members in the board of management.
+              </p>
+            </div>
           </div>
-          <div>
-            <h2>Region</h2>
-            <p>
-              HIMME accommodates all of BINUS Business School students
-              aspirations which spread across 4 regions
-            </p>
-            <a href="">See Details </a>
-          </div>
-        </div>
 
-        <div>
-          <div>
-            <EventIcon />
-            <p>4</p>
-          </div>
-          <div>
-            <h2>Region</h2>
-            <p>
-              HIMME accommodates all of BINUS Business School students
-              aspirations which spread across 4 regions
-            </p>
-            <a href="">See Details </a>
+          <div className="flex flex-col bg-white shadow-md rounded-md p-5 flex-1">
+            <div className="flex items-center">
+              <EventIcon />
+              <p className="text-6xl ml-3 font-semibold">10+</p>
+            </div>
+            <div>
+              <h2 className="text-3xl font-semibold my-3 ">Events</h2>
+              <p>
+                HIMME has more than 10 events annually consists of international
+                seminar, competitions and so much more.
+              </p>
+            </div>
           </div>
         </div>
       </SectionV1>
