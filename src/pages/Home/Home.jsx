@@ -253,6 +253,7 @@ const Home = () => {
             <p>
               For partnership, please contact our team below. We look forward to
               hearing from you!
+
             </p>
             <div className="flex">
               <div className="flex">
@@ -279,6 +280,7 @@ const Home = () => {
             <p className="text-red text-lg">
               **Text only. Not accepting calls.
             </p>
+
           </div>
         </div>
       </SectionV1>
