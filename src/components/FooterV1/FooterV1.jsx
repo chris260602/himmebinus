@@ -8,10 +8,14 @@ import MapsFooterIcon from "../../assets/icons/MapsFooterIcon";
 const FooterV1 = () => {
   return (
     <footer className="bg-blue">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 flex items-center justify-between">
+
+      <div className="mx-auto max-w-7xl px-2 py-3 sm:px-6 lg:px-8 flex items-center justify-between">
         <div className="text-white">
-          <p>2023. All Rights Reserved.</p>
-          <p>Managed by Department of Multimedia HIMME BINUS</p>
+          <p className="text-sm">© 2023. All Rights Reserved.</p>
+          <p className="text-lg">
+            Managed by Department of Multimedia HIMME BINUS
+          </p>
+
         </div>
         <div className="flex">
           <a
