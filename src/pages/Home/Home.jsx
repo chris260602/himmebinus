@@ -96,7 +96,10 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="flex flex-col bg-white shadow-md rounded-md p-5 flex-1">
+          <a
+            href="https://www.youtube.com"
+            className="flex flex-col bg-white shadow-md rounded-md p-5 flex-1"
+          >
             <div className="flex items-center">
               <EventIcon />
               <p className="text-6xl ml-3 font-semibold">10+</p>
@@ -108,7 +111,7 @@ const Home = () => {
                 seminar, competitions and so much more.
               </p>
             </div>
-          </div>
+          </a>
         </div>
       </SectionV1>
       <SectionV1 className={"mt-10"}>
@@ -240,8 +243,8 @@ const Home = () => {
       <SectionV1>
         <div>
           <div>
-            <div>
-              <h2>Let’s work together!</h2>
+            <div className="inline-block mb-6">
+              <h2 className="font-semibold text-6xl">Let’s work together!</h2>
               <LinearLine />
             </div>
             <img src={WorkTogether} alt="" />
@@ -251,23 +254,31 @@ const Home = () => {
               For partnership, please contact our team below. We look forward to
               hearing from you!
             </p>
-            <div>
-              <div>
+            <div className="flex">
+              <div className="flex">
                 <WhatsappIcon />
-                <p>Amira (Sponsorship)</p>
-                <p>(+62) 813-8438-0747</p>
+                <div>
+                  <p>Amira (Sponsorship)</p>
+                  <p>(+62) 813-8438-0747</p>
+                </div>
               </div>
-              <div>
+              <div className="flex">
                 <WhatsappIcon />
-                <p>Nazira (Media Partner)</p>
-                <p>(+62) 812-5348-4432</p>
+                <div>
+                  <p>Nazira (Media Partner)</p>
+                  <p>(+62) 812-5348-4432</p>
+                </div>
               </div>
-              <div>
+              <div className="flex">
                 <EmailIcon />
-                <p>himme.relation@gmail.com</p>
+                <div>
+                  <p>himme.relation@gmail.com</p>
+                </div>
               </div>
             </div>
-            <p>**Text only. Not accepting calls.</p>
+            <p className="text-red text-lg">
+              **Text only. Not accepting calls.
+            </p>
           </div>
         </div>
       </SectionV1>

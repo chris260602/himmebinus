@@ -8,6 +8,7 @@ module.exports = {
       black: "#202020",
       gray: "#D3D3D3",
       white: "#FFFFFF",
+      red: "#FF0000",
       transparant: "rgba(0, 151, 218,0)",
     },
     extend: {},
