@@ -1,6 +1,7 @@
 const MapsFooterIcon = () => {
   return (
     <svg
+    className="w-7 h-7"
       width="34"
       height="34"
       viewBox="0 0 34 34"

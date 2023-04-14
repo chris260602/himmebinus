@@ -1,8 +1,7 @@
 const MissionIcon = () => {
   return (
     <svg
-      width="257"
-      height="255"
+    className="lg: w-64 lg:h-64"
       viewBox="0 0 257 255"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

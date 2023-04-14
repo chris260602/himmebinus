@@ -1,6 +1,7 @@
 const BoardOfManagement = () => {
   return (
     <svg
+      className="w-96 h-96 lg:w-200 lg:h-200"
       width="1256"
       height="728"
       viewBox="0 0 1256 728"
