@@ -4,6 +4,7 @@ const AboutUs = () => {
   return (
     <>
       <NavigationBar />
+      
     </>
   );
 };
