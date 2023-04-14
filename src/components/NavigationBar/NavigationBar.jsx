@@ -6,14 +6,14 @@ import { NavLink } from "react-router-dom";
 const NavigationBar = () => {
   return (
     <>
-      <Disclosure as="nav" className="bg-blue fixed w-full">
+      <Disclosure as="nav" className="bg-primary fixed w-full z-10">
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
               <div className="relative flex h-16 items-center justify-between">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:text-yellow focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:text-secondary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -29,8 +29,8 @@ const NavigationBar = () => {
                         key={"Home"}
                         className={({ isActive }) =>
                           (isActive
-                            ? "text-yellow "
-                            : "text-white hover:text-yellow ") +
+                            ? "text-secondary "
+                            : "text-white hover:text-secondary ") +
                           "rounded-md px-3 py-2 text-xl font-semibold "
                         }
                         to={"/"}
@@ -40,7 +40,7 @@ const NavigationBar = () => {
                       <a
                         href="https://youtube.com"
                         className={
-                          "text-white hover:text-yellow " +
+                          "text-white hover:text-secondary " +
                           "rounded-md px-3 py-2 text-xl font-semibold"
                         }
                       >
@@ -50,8 +50,8 @@ const NavigationBar = () => {
                         key={"aboutus"}
                         className={({ isActive }) =>
                           (isActive
-                            ? "text-yellow "
-                            : "text-white hover:text-yellow ") +
+                            ? "text-secondary "
+                            : "text-white hover:text-secondary ") +
                           "rounded-md px-3 py-2 text-xl font-semibold "
                         }
                         to={"/aboutus"}
@@ -71,8 +71,8 @@ const NavigationBar = () => {
                     key={"Home"}
                     className={({ isActive }) =>
                       (isActive
-                        ? "text-yellow "
-                        : "text-white hover:text-yellow ") +
+                        ? "text-secondary "
+                        : "text-white hover:text-secondary ") +
                       "rounded-md px-3 py-2 text-xl font-semibold "
                     }
                     to={"/"}
@@ -85,7 +85,7 @@ const NavigationBar = () => {
                   <a
                     href="https://youtube.com"
                     className={
-                      "text-white hover:text-yellow " +
+                      "text-white hover:text-secondary " +
                       "rounded-md px-3 py-2 text-xl font-semibold "
                     }
                   >
@@ -97,8 +97,8 @@ const NavigationBar = () => {
                     key={"aboutus"}
                     className={({ isActive }) =>
                       (isActive
-                        ? "text-yellow "
-                        : "text-white hover:text-yellow ") +
+                        ? "text-secondary "
+                        : "text-white hover:text-secondary ") +
                       "rounded-md px-3 py-2 text-xl font-semibold "
                     }
                     to={"/aboutus"}
