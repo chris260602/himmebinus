@@ -362,7 +362,7 @@ const Home = () => {
               <LinearLine />
             </div>
             {/* Mengkuda 1 1 */}
-            <div className="w-full h-auto mx-auto mt-10 mb-20 p-1 grad rounded-md">
+            <div className="w-full h-auto mx-auto mt-5 mb-5 p-1 grad rounded-md">
               <div className="bg-white rounded-md">
                 <div className="">
                   <h2 className="font-semibold text-2xl p-3 text-center">
