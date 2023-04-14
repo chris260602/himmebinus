@@ -16,7 +16,6 @@ import BoardOfManagement from "../../assets/images/BoardOfManagement";
 import WorkTogether from "../../assets/images/WorkTogether.png";
 import WhatsappIcon from "../../assets/icons/WhatsappIcon";
 import EmailIcon from "../../assets/icons/EmailIcon";
-import tesImg from "../../assets/images/bom.jpg";
 import bgImg1 from "../../assets/images/Group 83.png";
 import bgImg2 from "../../assets/images/Group 85.png";
 import { Carousel } from "flowbite-react";
@@ -31,6 +30,51 @@ import OM6 from "../../assets/images/OM6.JPG";
 import OM7 from "../../assets/images/OM7.JPG";
 import OM8 from "../../assets/images/OM8.jpg";
 import OM9 from "../../assets/images/OM9.JPG";
+import img1 from "../../assets/Logo Perusahaan/AC.png";
+import img2 from "../../assets/Logo Perusahaan/Adiwana.png";
+import img3 from "../../assets/Logo Perusahaan/Aice.png";
+import img4 from "../../assets/Logo Perusahaan/Ardan.png";
+import img5 from "../../assets/Logo Perusahaan/Bhumi.png";
+import img6 from "../../assets/Logo Perusahaan/BinusTv.png";
+import img7 from "../../assets/Logo Perusahaan/BNCC.png";
+import img8 from "../../assets/Logo Perusahaan/BNEC.png";
+import img9 from "../../assets/Logo Perusahaan/BPreneur.png";
+import img10 from "../../assets/Logo Perusahaan/BRI.png";
+import img11 from "../../assets/Logo Perusahaan/Bvoice.png";
+import img12 from "../../assets/Logo Perusahaan/Dana.png";
+import img13 from "../../assets/Logo Perusahaan/Fisherman.png";
+import img14 from "../../assets/Logo Perusahaan/FlazzCoffee.png";
+import img15 from "../../assets/Logo Perusahaan/FreshBox.png";
+import img16 from "../../assets/Logo Perusahaan/IDNMedia.png";
+import img17 from "../../assets/Logo Perusahaan/Iflix.png";
+import img18 from "../../assets/Logo Perusahaan/Iqiyi.png";
+import img19 from "../../assets/Logo Perusahaan/Jaan.png";
+import img20 from "../../assets/Logo Perusahaan/JWM.png";
+import img21 from "../../assets/Logo Perusahaan/Kompas.png";
+import img22 from "../../assets/Logo Perusahaan/LParis.png";
+import img23 from "../../assets/Logo Perusahaan/McD.png";
+import img24 from "../../assets/Logo Perusahaan/McKinsey.png";
+import img25 from "../../assets/Logo Perusahaan/OCBC.png";
+import img26 from "../../assets/Logo Perusahaan/ON.png";
+import img27 from "../../assets/Logo Perusahaan/Paragon.png";
+import img28 from "../../assets/Logo Perusahaan/Permitha.png";
+import img29 from "../../assets/Logo Perusahaan/PPIH.png";
+import img30 from "../../assets/Logo Perusahaan/PPIL.png";
+import img31 from "../../assets/Logo Perusahaan/Samsung.png";
+import img32 from "../../assets/Logo Perusahaan/Sanidata.png";
+import img33 from "../../assets/Logo Perusahaan/Sasa.png";
+import img34 from "../../assets/Logo Perusahaan/Sirclo.png";
+import img35 from "../../assets/Logo Perusahaan/Stockbibit.png";
+import img36 from "../../assets/Logo Perusahaan/Sucor.png";
+import img37 from "../../assets/Logo Perusahaan/SxC.png";
+import img38 from "../../assets/Logo Perusahaan/Tanihub.png";
+import img39 from "../../assets/Logo Perusahaan/Tehbotol.png";
+import img40 from "../../assets/Logo Perusahaan/TheExecutive.png";
+import img41 from "../../assets/Logo Perusahaan/TIA.png";
+import img42 from "../../assets/Logo Perusahaan/Tiktok.png";
+import img43 from "../../assets/Logo Perusahaan/Viu.png";
+import img44 from "../../assets/Logo Perusahaan/Walts.png";
+import img45 from "../../assets/Logo Perusahaan/Zomato.png";
 
 const Home = () => {
   useEffect(() => initCarousels(), []);
@@ -310,7 +354,7 @@ const Home = () => {
       {/* Partnership */}
       <SectionV1 className="mt-10">
         <div className="relative">
-          <div>
+          <div className="backdrop-blur-sm bg-opacity-20 rounded drop-shadow-lg">
             <div className="inline-block mb-6">
               <h2 className="font-semibold text-4xl lg:text-5xl">
                 Let’s work together!
@@ -318,8 +362,63 @@ const Home = () => {
               <LinearLine />
             </div>
             {/* Mengkuda 1 1 */}
-            <div className="">
-              <img src={WorkTogether} />
+            <div className="w-full h-auto mx-auto mt-10 mb-20 p-1 grad rounded-md">
+              <div className="bg-white rounded-md">
+                <div className="">
+                  <h2 className="font-semibold text-2xl p-3 text-center">
+                    Previous Partners
+                    <LinearLine />
+                  </h2>
+                </div>
+                <div className="grid grid-cols-3 p-5 md:grid-cols-6 lg:grid-cols-12 gap-1">
+                  <img src={img1} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img2} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img3} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img4} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img5} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img6} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img7} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img8} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img9} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img10} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img11} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img12} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img13} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img14} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img15} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img16} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img17} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img18} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img19} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img20} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img21} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img22} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img23} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img24} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img25} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img26} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img27} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img28} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img29} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img30} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img31} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img32} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img33} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img34} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img35} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img36} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img37} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img38} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img39} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img40} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img41} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img42} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img43} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img44} alt="" className="w-20 h-20 mx-auto" />
+                  <img src={img45} alt="" className="w-20 h-20 mx-auto" />
+                </div>
+                <p className="w-full text-center">And Many More</p>
+              </div>
             </div>
           </div>
           <div className="border-2 px-10 rounded-md flex flex-col gap-4 mt-10 mb-20 py-5">
@@ -365,7 +464,7 @@ const Home = () => {
           </div>
           <img
             src={bgImg2}
-            className="absolute w-97 h-97 top-0 -left-40 -z-50"
+            className="absolute w-97 h-97 top-10 -left-40 -z-50"
           />
         </div>
       </SectionV1>
