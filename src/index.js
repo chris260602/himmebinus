@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import RedirectHome from "./components/RedirectHome/RedirectHome";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
