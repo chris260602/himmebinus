@@ -11,7 +11,7 @@ const FooterV1 = () => {
       <div className="mx-auto max-w-7xl px-2 py-3 sm:px-6 lg:px-8 flex items-center justify-between">
         <div className="text-white">
           <p className="text-sm">© 2023. All Rights Reserved.</p>
-          <p className="text-lg">
+          <p className="text-md lg:text-lg">
             Managed by Department of Multimedia HIMME BINUS
           </p>
         </div>
