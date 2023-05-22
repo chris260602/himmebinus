@@ -7,7 +7,7 @@ import MapsFooterIcon from "../../assets/icons/MapsFooterIcon";
 
 const FooterV1 = () => {
   return (
-    <footer className="bg-blue">
+    <footer className="bg-primary">
       <div className="mx-auto max-w-7xl px-2 py-3 sm:px-6 lg:px-8 flex items-center justify-between">
         <div className="text-white">
           <p className="text-sm">© 2023. All Rights Reserved.</p>
@@ -42,7 +42,7 @@ const FooterV1 = () => {
           </a>
           <a
             className="mx-1"
-            href="himme.relation@gmail.com"
+            href="mailto:himme.relational@gmail.com"
             target={"_blank"}
             rel="noreferrer"
           >
