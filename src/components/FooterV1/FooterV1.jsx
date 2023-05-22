@@ -7,9 +7,9 @@ import MapsFooterIcon from "../../assets/icons/MapsFooterIcon";
 
 const FooterV1 = () => {
   return (
-    <footer className="bg-primary">
-      <div className="flex flex-col px-2 py-6 items-center text-center h-40 lg:px-8 lg:flex-row lg:max-w-7xl lg:text-left lg:justify-between lg:mx-auto lg:h-24 ">
-        <div className="text-white mb-4 ">
+    <footer className="bg-blue">
+      <div className="mx-auto max-w-7xl px-2 py-3 sm:px-6 lg:px-8 flex items-center justify-between">
+        <div className="text-white">
           <p className="text-sm">© 2023. All Rights Reserved.</p>
           <p className="text-md lg:text-lg">
             Managed by Department of Multimedia HIMME BINUS
