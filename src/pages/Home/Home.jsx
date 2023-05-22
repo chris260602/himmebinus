@@ -13,7 +13,6 @@ import kemanggisan from "../../assets/images/kemanggisan.png";
 import bekasi from "../../assets/images/bekasi.png";
 import senayan from "../../assets/images/senayan.png";
 import BoardOfManagement from "../../assets/images/BoardOfManagement";
-import WorkTogether from "../../assets/images/WorkTogether.png";
 import WhatsappIcon from "../../assets/icons/WhatsappIcon";
 import EmailIcon from "../../assets/icons/EmailIcon";
 import bgImg1 from "../../assets/images/Group 83.png";
@@ -129,7 +128,7 @@ const Home = () => {
               <h2 className="text-3xl font-semibold my-3">Region</h2>
               <p>
                 HIMME accommodates all of BINUS Business School students
-                aspirations which spread across 4 regions
+                aspirations which spread across 4 regions.
               </p>
             </div>
           </div>
@@ -165,10 +164,7 @@ const Home = () => {
             </div>
           </div>
 
-          <a
-            href="https://www.youtube.com"
-            className="flex flex-col bg-white shadow-md rounded-md p-5 flex-1 items-center text-center lg:items-start lg:text-start"
-          >
+          <div className="flex flex-col bg-white shadow-md rounded-md p-5 flex-1 items-center text-center lg:items-start lg:text-start">
             <div className="flex items-center">
               <EventIcon />
               <p className="text-6xl ml-3 font-semibold">10+</p>
@@ -180,7 +176,7 @@ const Home = () => {
                 seminar, competitions and so much more.
               </p>
             </div>
-          </a>
+          </div>
         </div>
       </SectionV1>
       {/* Tagline */}
@@ -443,7 +439,12 @@ const Home = () => {
                 <WhatsappIcon />
                 <div>
                   <p>Nazira (Media Partner)</p>
-                  <p>(+62) 812-5348-4432</p>
+                  <a
+                    href="https://wa.me/+6281253484432"
+                    className="font-medium"
+                  >
+                    (+62) 812-5348-4432
+                  </a>
                 </div>
               </div>
               <div className="flex gap-x-3 py-2 items-center">
